@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+	letter-spacing: 7px	;
+	font-size:20px;
+	background: linear-gradient(to right ,black,white);	
+
+}
+
+input {
+    border: 2px solid black; 
+    padding: 20px 30px;
+    background: azure;
+    margin: 0 0 10px 0;
+}
+
+
+
+
+ul{	
+	letter-spacing: normal;
+	font-style:italic; 
+	display: inline-block;
+	flex-wrap: wrap;
+	list-style-type:none;
+}
+ul:hover{
+	transform: scale(1.5);
+	transition:all 1s;
+}
+
+#enter,#delete{
+	width: 7em;
+	padding: 10px 20px;
+	background-color:(255,255,220,0.5);
+	border: 2px solid black;
+}
+
+button:hover{
+	transition: all 1s;
+	transform: scale(1.2);
+	background-color: rgba(255,255,0,0.5);
+}
